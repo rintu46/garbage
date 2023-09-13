@@ -7,7 +7,11 @@ df = pd.DataFrame({
 
 
 filtered_df = df[df['A'] >1]
-filtered_df['B'] = 100
+filtered_df['B'] = 100  #https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy 
+                        # please visit this site for more details 
+
+
+
 
 
 # r = df[df['A'] >0]
